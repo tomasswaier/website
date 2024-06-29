@@ -2,8 +2,13 @@
   font-family:monocraft;
   src: url(Monocraft.ttf);
 }
-main{
+html{
   font-family:monocraft;
+  
 
+}
+body{
+  color:white;
+  background-color:black;
 
 }
