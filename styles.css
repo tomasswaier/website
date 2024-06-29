@@ -8,7 +8,13 @@ html{
 
 }
 body{
-  color:white;
-  background-color:black;
+  color:#aa99bb;
+  background-color:#303446;
 
+}
+.links{
+  color:#887799;
+}
+.links:hover{
+  color:aliceblue;
 }
