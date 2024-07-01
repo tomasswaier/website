@@ -24,9 +24,55 @@
       </header>
       <h1>Projects</h1>
       <hr>
+      <nav>
+        <ul>
+          <li>
+            <a class='links' href="#Visual_Novel">Visual Novel</a>
+          </li>
+          <li>
+            <a class='links' href="#Screenshot_Tool">Screnshot Tool</a>
+          </li>
+          <li>
+            <a class='links' href="#WebScraper">WebScraper</a>
+          </li>
+        </ul>
+      </nav>
+      <div class='projects'>
+        <div id='Screenshot_Tool' class='project'>
+          <br>
+          <h3 >Screenshot Tool</h3>
+          <img src="images/Screenshot_Tool.png" alt="Screenshot Tool">
+          <a class='links' href="https://github.com/tomasswaier/tools/tree/main/screenshot">GitHub</a>
+          <p>Screenshoting tool made in python that uses vim motions.<br>Requirements:<a class='links' href="https://python-gtk-3-tutorial.readthedocs.io/en/latest/install.html">Gtk3</a></p>
+          <p>Usage:python3 main.py will tak screenshot of main window</p>
+          <p>Specifications:As mentioned before you can operate this tool using WSAD keys and HJKL where WSAD picks which side you want to adjust(as can be seen on the picture above) and HJKL are used to adjust their position so H,L can move sides to left,right and J,K can adjust their height.After positioning your border you can take the screenshot by presing 'p'.<br>This tool saves the image into ~/Pictures/Screenshots/ in format of current YEAR-MONTH-DAY HOUR:MINUTE:SECOND.png so that your screenshot is always the last file with this format.<br>Pictures/Screenshots/ directory isnt initiated so you will need to make it yourself or if you prefer to save it somewhere else you can rewrite the main.py</p>
+          <br>
+          <p>Program only works on main screen because I don't need more but I'd like to add support for multiple screens</p>
+        </div> 
+        <div id='WebScraper' class='project'>
+          <br>
+          <h3>WebScraper</h3>
+          <img src="images/WebScraper.png" alt="WebScraper image">
+          <p>WebScraper capable of storing ascii art and printing it</p>
+          <p>Requirements:<a class='links' href="https://pypi.org/project/requests/">python-requests</a>|<a class='links' href="https://pypi.org/project/beautifulsoup4/">beautifulsoup4</a></p>
+          <p>Usage:<ul>
+           <li> 
+          python3 main.py -w name will create directory named after your 'name' and prompt you to write your ascii image </li>
+           <li>python3 main.py -r name will try to access that directory and then read random image from it </li>
+           <li>pyrhon3 main.py -l prompt will look up images with that name and write every element with tag 'dot_art' as txt file</li>
+          </ul>
+          <p>Specifications:This project stores ascii images as txt files in their own directory in path-to-folder/images/name , print them and save them from https://emojicombos.com/. where it will only look at dot_art type.</p>
+        </div> 
+        <div id='Visual_Novel' class='project'>
+          <br>
+          <h3 >Visua Novel</h3> 
+          <img src="images/Visual_Novel.png" alt="Visual Novel Image">
+          <p>Requirements <a class='links' href="https://www.renpy.org/latest.html">RenPy</a></p>
+          <p>Specifications:Ongoing project in python using RenPy library about league of legends character in another world</p>
+        </div> 
+      </div>
     </main>
   </body>
 
 
 </html>
-
