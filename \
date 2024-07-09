@@ -147,7 +147,7 @@
             using ferner base64 encryption. After inputing key information
             (website,account,password) user has to give the program access key
             which will use fernets encryption and by using pandas store the
-            output into a csv file. UI is all made in PyTermGui.
+            output into a csv file.
           </p>
         </div>
         <div id="Visual_Novel" class="project">
