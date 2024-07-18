@@ -30,6 +30,7 @@ body {
   padding: 0px;
   margin: 0px;
   background-color: var(--background-color-darker);
+  font-size: min(5vw, 30px);
 }
 .nav-bar ul {
   display: flex;
@@ -43,11 +44,12 @@ body {
   width: 50%;
 }
 .nav-bar li {
+  margin-right: 20px;
+  margin-left: -20px;
   display: inline;
   height: 100%;
 }
 .nav-bar a {
-  font-size: 30px;
   text-decoration: none;
 }
 .left-side-links {
